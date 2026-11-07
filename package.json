@@ -1,0 +1,14 @@
+{
+  "name": "pruebasof_performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke:employees": "k6 run scenarios/employees/employees.smoke.js",
+    "load:employees": "k6 run scenarios/employees/employees.load.js",
+    "stress:employees": "k6 run scenarios/employees/employees.stress.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
